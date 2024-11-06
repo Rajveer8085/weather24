@@ -5,7 +5,9 @@
         margin: 30px 40px;
     }
     .btns {
-        right: 5px;
+        right: -19px;
+        top: -20px;
+        bottom: 49px;
     }
     .searchBar{
         right:20px;
