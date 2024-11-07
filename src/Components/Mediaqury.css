@@ -1,22 +1,25 @@
-@media(min-width:320px) and (max-width:700px) {
-
-    .weather_data{
-        width: 100%;
-        margin: 30px 40px;
-    }
-    .btns {
-        right: -19px;
-        top: -20px;
-        bottom: 49px;
-    }
-    .searchBar{
-        right:20px;
-        padding-bottom: 50px;
-    }
-    .weather_icon img{
-        height: 100px;
-    }
-    .locals{
-        padding-top: 95px;
-    }
+@media (min-width: 320px) and (max-width: 700px) {
+  body {
+    height: 100vh;
+  }
+  .weather_data {
+    width: 95%;
+  }
+  .searchBar input{
+    margin-left: 25px;
+    width: 95%;
+  }
+  .btns {
+    right: 1%;
+  }
+  .searchBar {
+    right: 20px;
+    padding-bottom: 50px;
+  }
+  .weather_icon img {
+    height: 100px;
+  }
+  .locals {
+    padding-top: 95px;
+  }
 }
