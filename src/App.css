@@ -1,9 +1,11 @@
 body{
   margin: 0;
   padding: 0;
+  height: 100vh;
   background-image: url(./assets/img/beautiful-natural-clouds-sky.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   text-transform: capitalize;
 }
 
@@ -12,7 +14,6 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 .weather_data{
   margin: 20px 0  ;
@@ -29,26 +30,28 @@ body{
   text-align: center;
   display: flex;
   justify-content: center;
-
+  margin-bottom: 20px;
 }
 .searchBar input{
-  border-radius: 20px;
+  border-radius: 25px;
   padding: 10px 15px;
   border: none;
-  width: 75%;
+  width: 80%;
 }
 .btns{
+  margin-top: 2px;
+  position: absolute;
+  right: 10.5%;
   border: none;
   border-radius: 20px;
   background-color: rgb(131, 131, 245);
-  position: absolute;
   color: white;
-  padding: 10px 15px;
-  top: -20px;
-  right: 59px;
-  margin-top: 20px;
+  padding: 8px 15px;
   text-align: center;
-  bottom: 0px;
+  transition: all .5s ease-in;
+}
+.btns:hover{
+  background-color: rgb(100, 100, 191);
 }
 .city_name{
   display: flex;
